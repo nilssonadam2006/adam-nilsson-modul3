@@ -1,0 +1,110 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     margin: 0;
+     width: 100%;
+     min-height: 100%;
+ }
+
+ body {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     font-family: Arial, sans-serif;
+     border: 5px solid #222;
+ }
+
+ header {
+     display: grid;
+     grid-template-columns: 16% 84%;
+     height: 146px;
+ }
+
+ header img {
+     width: 100%;
+     height: 146px;
+     object-fit: contain;
+     background-color: white;
+ }
+
+ header .pool {
+     object-fit: cover;
+ }
+
+ main {
+     display: grid;
+     grid-template-columns: 2.1fr 1fr;
+     gap: 32px;
+     padding: 12px 15px 17px;
+     background-color: #7abdb5;
+     flex: 1;
+ }
+
+ .vänster {
+     min-width: 0;
+ }
+
+ nav {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 24px;
+     margin-bottom: 15px;
+ }
+
+ nav a {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 102px;
+     padding: 10px;
+     border-radius: 25px;
+     background-color: #d9d9d9;
+     color: black;
+     text-decoration: none;
+     font-size: 27px;
+ }
+
+ nav a:hover {
+     text-decoration: underline;
+ }
+
+ .huvudbild {
+     display: block;
+     width: 72%;
+     height: 344px;
+     margin: 0 auto;
+     border-radius: 20px;
+     object-fit: cover;
+ }
+
+ .textpanel {
+     padding: 22px 18px;
+     border-radius: 28px;
+     background-color: #dedede;
+ }
+
+ .textpanel h1 {
+     margin: 2px 0 22px;
+     font-size: 29px;
+     font-weight: normal;
+     text-align: center;
+ }
+
+ .textpanel p {
+     margin: 0;
+     font-size: 18px;
+     line-height: 1.2;
+ }
+
+ footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 125px;
+     padding: 20px;
+     background-color: #b6d7d8;
+     font-size: 25px;
+     text-align: center;
+ }
